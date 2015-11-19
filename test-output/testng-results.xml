@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="178992" started-at="2015-05-08T16:21:12Z" finished-at="2015-05-08T16:24:11Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="178992" started-at="2015-05-08T16:21:12Z" finished-at="2015-05-08T16:24:11Z">
+      <class name="scripts.ProductSelectionTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:scripts.ProductSelectionTest@675690]" name="beforeClass" is-config="true" duration-ms="16226" started-at="2015-05-08T21:51:12Z" finished-at="2015-05-08T21:51:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:scripts.ProductSelectionTest@675690]" name="beforeMethod" is-config="true" duration-ms="14782" started-at="2015-05-08T21:51:28Z" finished-at="2015-05-08T21:51:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="brandSelection()[pri:0, instance:scripts.ProductSelectionTest@675690]" name="brandSelection" duration-ms="147868" started-at="2015-05-08T21:51:43Z" finished-at="2015-05-08T21:54:10Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: {"method":"class name","selector":"filters"}
+Command duration or timeout: 168 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
+System info: host: 'CGVAK-204', ip: '172.16.11.13', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=31.0, platform=WINDOWS, nativeEvents=true, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 7521c040-b40d-48f1-a605-515ba2dfa394
+*** Element info: {Using=class name, value=filters}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"class name","selector":"filters"}
+Command duration or timeout: 168 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
+System info: host: 'CGVAK-204', ip: '172.16.11.13', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=31.0, platform=WINDOWS, nativeEvents=true, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 7521c040-b40d-48f1-a605-515ba2dfa394
+*** Element info: {Using=class name, value=filters}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:433)
+	at org.openqa.selenium.By$ByClassName.findElement(By.java:387)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at pageObjects.ProductListPage.brandLists(ProductListPage.java:14)
+	at pageObjects.ProductListPage$CommonFunctions.brandSelection(ProductListPage.java:24)
+	at scripts.ProductSelectionTest.brandSelection(ProductSelectionTest.java:37)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"class name","selector":"filters"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
+System info: host: 'CGVAK-204', ip: '172.16.11.13', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/SIVAKU~1/AppData/Local/Temp/anonymous110260627083166753webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10271)
+	at <anonymous class>.FirefoxDriver.prototype.findElement(file:///C:/Users/SIVAKU~1/AppData/Local/Temp/anonymous110260627083166753webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10280)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/SIVAKU~1/AppData/Local/Temp/anonymous110260627083166753webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12274)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///C:/Users/SIVAKU~1/AppData/Local/Temp/anonymous110260627083166753webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12279)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///C:/Users/SIVAKU~1/AppData/Local/Temp/anonymous110260627083166753webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12221)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- brandSelection -->
+      </class> <!-- scripts.ProductSelectionTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

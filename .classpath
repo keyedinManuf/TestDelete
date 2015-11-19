@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="D:/selenium-java-2.42.2/testng-xslt-1.1.2-master/testng-xslt-1.1.2-master/lib/sa/saxon-8.7.jar"/>
+	<classpathentry kind="lib" path="D:/selenium-java-2.42.2/testng-xslt-1.1.2-master/testng-xslt-1.1.2-master/lib/sa/SaxonLiaison.jar"/>
+	<classpathentry kind="lib" path="D:/selenium-java/apache-ant-1.8.2.jar"/>
+	<classpathentry kind="lib" path="D:/selenium-java/jxl-2.6.jar"/>
+	<classpathentry kind="lib" path="D:/selenium-java/poi-3.7-sources.jar"/>
+	<classpathentry kind="lib" path="D:/selenium-java/poi-3.9.jar"/>
+	<classpathentry kind="lib" path="D:/selenium-java/selenium-server-standalone-2.45.0.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
